@@ -44,5 +44,6 @@ npm install
 - [Assertions](documentation/assertions.md)
 - [Logs Spy](documentation/logs-spy.md)
 - [CORS configuration](documentation/cors-configuration.md)
+- [sonar](documentation/sonar.md)
 
 <!-- seed4j-needle-documentation -->
