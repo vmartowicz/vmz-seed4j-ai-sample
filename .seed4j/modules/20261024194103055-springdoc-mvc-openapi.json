@@ -1,0 +1,14 @@
+{
+  "module" : "springdoc-mvc-openapi",
+  "date" : "2026-10-24T19:41:03.055513581Z",
+  "properties" : {
+    "packageName" : "fr.vmz.seed4j.sample.ai",
+    "projectName" : "Vmz Seed4J AI Sample Application",
+    "nodePackageManager" : "npm",
+    "indentSize" : 2,
+    "baseName" : "vmzSeed4JAiSampleApplication",
+    "endOfLine" : "lf",
+    "serverPort" : 8080,
+    "springConfigurationFormat" : "yaml"
+  }
+}
