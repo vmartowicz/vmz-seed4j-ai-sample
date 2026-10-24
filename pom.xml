@@ -79,6 +79,12 @@
       <artifactId>spring-boot-starter-webmvc-test</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.tngtech.archunit</groupId>
+      <artifactId>archunit-junit5-api</artifactId>
+      <version>${archunit-junit5.version}</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <properties>
@@ -103,6 +109,7 @@
     <springdoc-openapi.version>3.1.1</springdoc-openapi.version>
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
     <checkstyle.version>14.3.0</checkstyle.version>
+    <archunit-junit5.version>1.5.1</archunit-junit5.version>
     <!-- Default value required by @{argLine} in surefire/failsafe, JaCoCo prepends its agent to it -->
   </properties>
 
