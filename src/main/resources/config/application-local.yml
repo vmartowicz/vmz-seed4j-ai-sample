@@ -5,3 +5,10 @@ logging:
         seed4j:
           sample:
             ai: DEBUG
+management:
+  endpoints:
+    access:
+      default: unrestricted
+    web:
+      exposure:
+        include: '*'
