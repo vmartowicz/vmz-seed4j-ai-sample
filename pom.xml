@@ -47,7 +47,26 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-validation</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-webmvc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections</artifactId>
+      <version>${reflections.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-webmvc-test</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -70,6 +89,7 @@
     <jspecify.version>1.0.1</jspecify.version>
     <nullaway.version>0.14.3</nullaway.version>
     <spring-boot.version>4.1.2</spring-boot.version>
+    <reflections.version>0.10.2</reflections.version>
     <!-- Default value required by @{argLine} in surefire/failsafe, JaCoCo prepends its agent to it -->
   </properties>
 

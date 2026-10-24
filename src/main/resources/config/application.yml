@@ -8,3 +8,7 @@ logging:
 spring:
   application:
     name: vmzSeed4JAiSampleApplication
+  jackson:
+    default-property-inclusion: non_absent
+server:
+  port: 8080
