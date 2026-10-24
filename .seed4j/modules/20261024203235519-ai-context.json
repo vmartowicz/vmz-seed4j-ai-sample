@@ -1,0 +1,14 @@
+{
+  "module" : "ai-context",
+  "date" : "2026-10-24T20:32:35.519887825Z",
+  "properties" : {
+    "packageName" : "fr.vmz.seed4j.sample.ai",
+    "projectName" : "Vmz Seed4J AI Sample Application",
+    "nodePackageManager" : "npm",
+    "indentSize" : 2,
+    "baseName" : "vmzSeed4JAiSampleApplication",
+    "endOfLine" : "lf",
+    "serverPort" : 8080,
+    "springConfigurationFormat" : "yaml"
+  }
+}

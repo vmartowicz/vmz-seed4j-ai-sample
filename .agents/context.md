@@ -17,6 +17,8 @@
 
 Seed4J never generates business code. Don't hand-write what a Seed4J module provides (build plugins, database or messaging setup…): apply the module instead.
 
+Before using the `seed4j` command, compare the installed version (`seed4j --version`) with the latest published one (`npm view seed4j-cli version`, or `npm view seed4j-cli@experimental version` if the installed CLI is on the experimental channel). If a newer version is published, or if the installed one is not a published version (a local `SNAPSHOT` build), the CLI may be outdated: tell the user, suggest `npm install -g seed4j-cli` (or `seed4j-cli@experimental`) followed by `seed4j skill install`, and wait for their decision. Don't update it yourself.
+
 ## Packages
 
 ```
