@@ -1,0 +1,12 @@
+{
+  "module" : "init",
+  "date" : "2026-10-24T19:39:45.497079010Z",
+  "properties" : {
+    "packageName" : "fr.vmz.seed4j.sample.ai",
+    "projectName" : "Vmz Seed4J AI Sample Application",
+    "baseName" : "vmzSeed4JAiSampleApplication",
+    "nodePackageManager" : "npm",
+    "endOfLine" : "lf",
+    "indentSize" : 2
+  }
+}
