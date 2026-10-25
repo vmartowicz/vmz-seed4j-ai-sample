@@ -15,6 +15,7 @@
 | 3-advanced | 03 | `03-online-shop-order-tracking-en.md` | `03-suivi-commandes-boutique-en-ligne-fr.md` | Online shop order tracking | 7 statuses, pricing and loyalty discount, stock reserved / released, cancellations, returns |
 | 3-advanced | 04 | `04-gourmet-restaurant-en.md` | `04-restaurant-gastronomique-fr.md` | Gourmet restaurant | 4 concepts, 6 groups of rules, table assignment, deposits, loyalty, blacklist |
 | 4-expert | 01 | `01-gym-network-en.md` | `01-reseau-salles-sport-fr.md` | Gym network | 5 teams with their own vocabulary (member, attendee, badge holder) → several bounded contexts; cross-context rules (arrears block access, cancelled class and quota, suspension and billing); contradictory class quota; team questions sitting between two contexts |
+| 4-expert | 02 | `02-tech-conference-en.md` | `02-conference-tech-fr.md` | Tech conference | 5 volunteer teams (call for papers, schedule, ticketing, sponsoring, on-site) → several bounded contexts; the same person is an author, a speaker, a ticket holder and a badge; cross-context rules (accepted talk → free ticket, sponsor package → tickets and talk, withdrawal → waiting list and slot); contradictions on talk length, refunds, sponsor tickets vs badges and workshop access |
 
 ## How to run an evaluation
 
