@@ -1,6 +1,6 @@
 # Evaluations of the `ai-context` module skills
 
-`samples/` contains business needs written as a user would write them (with gaps and inconsistencies on purpose), in French (`<NN>-<french-name>-fr.md`, the original) and in English (`<NN>-<english-name>-en.md`, a translation keeping the same gaps and inconsistencies), grouped by level in `1-simple/`, `2-intermediate/` and `3-advanced/`. Both versions of a sample share the same number `<NN>` within their level. They come from the first LangChain4j prototype and are ordered from the least to the most complex domain.
+`samples/` contains business needs written as a user would write them (with gaps and inconsistencies on purpose), in French (`<NN>-<french-name>-fr.md`, the original) and in English (`<NN>-<english-name>-en.md`, a translation keeping the same gaps and inconsistencies), grouped by level in `1-simple/`, `2-intermediate/`, `3-advanced/` and `4-expert/`. Both versions of a sample share the same number `<NN>` within their level. Levels 1 to 3 come from the first LangChain4j prototype; `4-expert/` samples were written later to require several bounded contexts. Samples are ordered from the least to the most complex domain.
 
 | Level | # | English | French | Domain | Why it is at this level |
 | --- | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@
 | 3-advanced | 02 | `02-municipal-library-en.md` | `02-bibliotheque-municipale-fr.md` | Municipal library | 3 aggregates, cross-aggregate rules, fines, automatic suspension (fully specified) |
 | 3-advanced | 03 | `03-online-shop-order-tracking-en.md` | `03-suivi-commandes-boutique-en-ligne-fr.md` | Online shop order tracking | 7 statuses, pricing and loyalty discount, stock reserved / released, cancellations, returns |
 | 3-advanced | 04 | `04-gourmet-restaurant-en.md` | `04-restaurant-gastronomique-fr.md` | Gourmet restaurant | 4 concepts, 6 groups of rules, table assignment, deposits, loyalty, blacklist |
+| 4-expert | 01 | `01-gym-network-en.md` | `01-reseau-salles-sport-fr.md` | Gym network | 5 teams with their own vocabulary (member, attendee, badge holder) → several bounded contexts; cross-context rules (arrears block access, cancelled class and quota, suspension and billing); contradictory class quota; team questions sitting between two contexts |
 
 ## How to run an evaluation
 
