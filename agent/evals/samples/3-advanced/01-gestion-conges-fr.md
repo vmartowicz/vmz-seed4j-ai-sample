@@ -3,7 +3,7 @@
 Je veux gérer un application de gestion de congés pour PME.
 
 Contexte :
-Mon entreprise a 10 salles de réunion.
+Mon entreprise est une PME d'environ 50 salariés.
 
 Règles métier :
 - 25 jours de congés payés par an

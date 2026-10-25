@@ -3,7 +3,7 @@
 I want to manage a leave management application for SMEs.
 
 Context:
-My company has 10 meeting rooms.
+My company is an SME with about 50 employees.
 
 Business rules:
 - 25 days of paid leave per year
